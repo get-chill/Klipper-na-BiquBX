@@ -7,6 +7,7 @@ https://gist.github.com/varazir/f8994b0ebbe4ce2d1e1cdf88fb65621d
 Pré-Requisitos:
 
 1- Raspberry Pi 3B ou versões superiores (acredito que suporte até o Pi 4)
+
 2- Cartão SD com 8GB de memória ou mais (na minha impressora utilizo um kingston 32GB e nunca tive problemas)
 
 Perfeito, agora tendo tudo isso em mãos, podemos começar a instalação do nosso klipper!
