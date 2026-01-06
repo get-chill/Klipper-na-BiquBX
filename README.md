@@ -30,39 +30,48 @@ Após baixar o Imager, conecte seu cartão SD no computador utilizando o adaptad
 
 ## Ao abrir, você será perguntado se quer atualizar o programa, selecione que não.
 
-<img width="848" height="557" alt="image" src="https://github.com/user-attachments/assets/f4c35015-ab1e-4e76-8233-a2230c7d9836" />
+<img width="848" height="557" alt="image" src="https://github.com/user-attachments/assets/f4c35015-ab1e-4e76-8233-a2230c7d9836"
+  width="50%" height="50%"/>
 
 ## Aqui vamos escolher nosso dispositivo
 
-<img width="840" height="553" alt="image" src="https://github.com/user-attachments/assets/6efd16a4-8df0-4c7e-aa65-f11c396bf81b" />
+<img width="840" height="553" alt="image" src="https://github.com/user-attachments/assets/6efd16a4-8df0-4c7e-aa65-f11c396bf81b" 
+  width="50%" height="50%"/>
 
 ## No meu caso, Raspiberry Pi 3 
 
-<img width="843" height="557" alt="image" src="https://github.com/user-attachments/assets/66105d1c-4b2d-4e20-873d-9906c34c7bb2" />
+<img width="843" height="557" alt="image" src="https://github.com/user-attachments/assets/66105d1c-4b2d-4e20-873d-9906c34c7bb2" 
+  width="50%" height="50%"/>
 
 ## Agora escolhemos nosso SO personalizado, descendo a página até o final
 
-<img width="847" height="561" alt="image" src="https://github.com/user-attachments/assets/e0511833-0dd4-4ced-b9b1-03e7c4d9b486" />
+<img width="847" height="561" alt="image" src="https://github.com/user-attachments/assets/e0511833-0dd4-4ced-b9b1-03e7c4d9b486" 
+  width="50%" height="50%"/>
 
 ## Escolhemos nosso armazenamento e formatamos ele se solicitado
 
-<img width="845" height="559" alt="image" src="https://github.com/user-attachments/assets/c789bf3e-0452-47d7-8d7c-5be8657d36f1" />
+<img width="845" height="559" alt="image" src="https://github.com/user-attachments/assets/c789bf3e-0452-47d7-8d7c-5be8657d36f1" 
+  width="50%" height="50%"/>
 
 ## Após isso, clicamos em seguinte e editamos as definições de personalização do SO
 
-<img width="845" height="555" alt="image" src="https://github.com/user-attachments/assets/3c8b83dd-ab41-45ac-bc53-459e91b7b52e" />
+<img width="845" height="555" alt="image" src="https://github.com/user-attachments/assets/3c8b83dd-ab41-45ac-bc53-459e91b7b52e" 
+  width="50%" height="50%"/>
 
 ## Definimos um host local, nome de usuário e senha, SSID e senha da rede
 
-<img width="842" height="561" alt="image" src="https://github.com/user-attachments/assets/35203767-c13f-4a23-80a6-d05f0b348c6e" />
+<img width="842" height="561" alt="image" src="https://github.com/user-attachments/assets/35203767-c13f-4a23-80a6-d05f0b348c6e" 
+  width="50%" height="50%"/>
 
 ## Descemos e definimos país da rede e fuso horário
 
-<img width="847" height="561" alt="image" src="https://github.com/user-attachments/assets/7c2af8cd-3c65-4233-9ce8-03a73067b089" />
+<img width="847" height="561" alt="image" src="https://github.com/user-attachments/assets/7c2af8cd-3c65-4233-9ce8-03a73067b089" 
+  width="50%" height="50%"/>
 
 ## Vamos para a aba serviços e habilitamos o SSH
 
-<img width="843" height="557" alt="image" src="https://github.com/user-attachments/assets/4e95c2a6-fc00-40d0-a94f-12100756b87c" />
+<img width="843" height="557" alt="image" src="https://github.com/user-attachments/assets/4e95c2a6-fc00-40d0-a94f-12100756b87c" 
+  width="50%" height="50%"/>
 
 Agora salve e aplique as definições do SO
 
@@ -73,18 +82,21 @@ Você agora tem um cartão SD com o SO instalado.
 
 ## Antes de ligar sua Raspberry Pi, digite o seguinte comando no terminal do seu computador "arp -a", isso nos dará uma lista de IPs da nossa rede local:
 
-<img width="704" height="570" alt="image" src="https://github.com/user-attachments/assets/95650c2a-58e0-4133-93f7-0f92dacc2d29" />
+<img width="704" height="570" alt="image" src="https://github.com/user-attachments/assets/95650c2a-58e0-4133-93f7-0f92dacc2d29" 
+  width="50%" height="50%"/>
 
 Coloque o cartão SD na sua Raspberry Pi, conecte ela ao usb do seu computador ou de um carregador de celular e espere alguns minutos para instalar tudo.
 Após alguns minutos, feche e abra o terminal e então digite o comando "arp -a" novamente no terminal
 Provavelmente terá um IP novo na sua lista, no meu caso 192.168.1.171
 
-<img width="1472" height="705" alt="image" src="https://github.com/user-attachments/assets/b889224e-0806-4bb2-942d-a74374400329" />
+<img width="1472" height="705" alt="image" src="https://github.com/user-attachments/assets/b889224e-0806-4bb2-942d-a74374400329" 
+  width="50%" height="50%"/>
 
 Agora vamos acessar nossa Raspberry via SSH, ainda no seu terminal, digite ssh "SEU NOME DE USUARIO DEFINIDO NA INSTALAÇÃO DO SO"@IP-DA-IMPRESSORA
 Ele vai solicitar uma senha, digite e dê um enter e você estará conectado no sistema da sua impressora:
 
-<img width="1470" height="693" alt="image" src="https://github.com/user-attachments/assets/a8912642-4884-4158-81bd-f2e3dc526e5c" />
+<img width="1470" height="693" alt="image" src="https://github.com/user-attachments/assets/a8912642-4884-4158-81bd-f2e3dc526e5c" 
+  width="50%" height="50%"/>
 
 Digite o seguinte comando no terminal:
 
