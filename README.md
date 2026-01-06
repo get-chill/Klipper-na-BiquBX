@@ -113,3 +113,14 @@ Agora parafusamos nossa Raspberry Pi nos espaçadores e conectamos os cabos da s
 
 Ligamos a impressora e entramos no modo Raspberry Pi (Apertando o potênciometro por um tempo para abrir a tela de seleção), então teremos o terminal do nosso Pi a vista!
 Se preferir conectar um teclado no Pi para a próxima etapa, também é possível, para não ter que acessá-lo via SSH.
+
+Agora vamos instalar o KIAUH (Klipper Installation And Update Helper)
+
+Digite
+
+cd ~ && git clone https://github.com/dw-0/kiauh.git
+
+e depois
+
+./kiauh/kiauh.sh
+
