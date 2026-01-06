@@ -30,7 +30,7 @@ Após baixar o Imager, conecte seu cartão SD no computador utilizando o adaptad
 
 ## Ao abrir, você será perguntado se quer atualizar o programa, selecione que não.
 
-<img width="840" height="550" alt="image" src="https://github.com/user-attachments/assets/f4c35015-ab1e-4e76-8233-a2230c7d9836"/>
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/f4c35015-ab1e-4e76-8233-a2230c7d9836"/>
 
 ## Aqui vamos escolher nosso dispositivo
 
