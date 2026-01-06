@@ -101,9 +101,15 @@ Se tudo der certo, seu Raspberry irá reiniciar.
 
 Na caixa da sua impressora deve ter vindo este kit para a instalação do Pi, e é ele que vamos utilizar.
 
+![WhatsApp Image 2026-01-06 at 19 22 22](https://github.com/user-attachments/assets/9e92abc8-fe90-4787-a281-f113093c6616)
+
 A primeira coisa que devemos fazer é conectar este cabo flat na placa da tela, colocar os espaçadores e o cabo UART, como mostra a imagem:
 
+![WhatsApp Image 2026-01-06 at 19 26 53](https://github.com/user-attachments/assets/a1b29e2f-21f7-445b-9e32-60d140607b91)
+
 Agora parafusamos nossa Raspberry Pi nos espaçadores e conectamos os cabos da seguinte forma:
+
+![WhatsApp Image 2026-01-06 at 19 31 53](https://github.com/user-attachments/assets/0f258f08-5084-4551-b9f1-91702a520f13)
 
 Ligamos a impressora e entramos no modo Raspberry Pi (Apertando o potênciometro por um tempo para abrir a tela de seleção), então teremos o terminal do nosso Pi a vista!
 Se preferir conectar um teclado no Pi para a próxima etapa, também é possível, para não ter que acessá-lo via SSH.
