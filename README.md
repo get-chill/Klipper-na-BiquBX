@@ -87,6 +87,8 @@ disable_splash=1
 
 Se não estiver, sobrescreva o texto.
 
+Verifique também no arquivo cmdline.txt se existe a configuração "console=serial0,11520", se existir, apague. 
+
 # Segundo Passo - Instalar o driver da tela da Biqu BX
 
 ## Antes de ligar sua Raspberry Pi, digite o seguinte comando no terminal do seu computador "arp -a", isso nos dará uma lista de IPs da nossa rede local:
