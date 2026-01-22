@@ -72,11 +72,17 @@ Você agora tem um cartão SD com o SO instalado.
 Coloque o cartão SD no computador novamente e verifique se o arquivo config.txt está desta forma:
 
 [all]
+
 dtparam=i2c_vc=on
+
 dtparam=i2c_arm=on
+
 enable_uart=1
+
 dtoverlay=disable-bt
+
 dtoverlay=vc4-kms-dsi-btt-bxv3-7inch
+
 disable_splash=1
 
 Se não estiver, sobrescreva o texto.
